@@ -5,8 +5,8 @@ Abaixo, segue alguns comandos trivias do docker, muito importante para quem est�
 
 Alguns comandos básico Docker
 
-<h4>Comando "Docker Image"
-<h5>Listar todas as imagens, os dois comandos abaixo fazem exatamente o mesmo trabalho
+**Comando "Docker Image"**
+Listar todas as imagens, os dois comandos abaixo fazem exatamente o mesmo trabalho
 
 ```docker image list```
 ou
@@ -23,7 +23,7 @@ Para listar os dados de uma imagem, tais como tamanho, hostname,etc...,
 criar um container
 ```docker container run [parâmetros] [imagem] [cmd] [argumentos]```
 Ex.: ```docker container run -it --rm --name meu-primeiro-container-run python```
-<h4>Comando "Docker Container"
+**Comando "Docker Container"**
 
 Nesse exemplo usamos run para rodar o container e utilizamos a flag -it para que o terminal fosse interativo, “--rm” para que após que acabasse a execução do container ele seria removido automaticamente, em “--name” definimos o nome do container, no caso “meu-primeiro-container-run” e python é o nome da imagem (mude isso se for o seu caso), nesse caso o container exibirá um shell python (pois como não passamos argumentos no final, o container procurará o argumento padrão da imagem), um exemplo com argumentos no final é:
 
