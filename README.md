@@ -5,7 +5,7 @@ Abaixo, segue alguns comandos trivias do docker, muito importante para quem est√
 
 Alguns comandos b√°sico Docker
 
-<h4>Comando "Docker Image
+<h4>Comando "Docker Image"
 <h5>Listar todas as imagens, os dois comandos abaixo fazem exatamente o mesmo trabalho
 
 ```docker image list```
