@@ -13,9 +13,11 @@ Listar todas as imagens, os dois comandos abaixo fazem exatamente o mesmo trabal
 ou
 ```docker image ls```
 
-Baixar uma imagem, o comando abaixo baixará a imagem desejada a partir do docker hub
+Baixar uma imagem, o comando abaixo baixará a imagem desejada a partir do docker hub:
 ```docker image pull $nome da imagem$```
+
 Ex.: ```docker image pull python```
+
 Ex2. ```docker image pull clojure```
 
 Para listar os dados de uma imagem, tais como tamanho, hostname,etc...,
@@ -23,6 +25,7 @@ Para listar os dados de uma imagem, tais como tamanho, hostname,etc...,
 
 criar um container
 ```docker container run [parâmetros] [imagem] [cmd] [argumentos]```
+
 Ex.: ```docker container run -it --rm --name meu-primeiro-container-run python```
 
 
